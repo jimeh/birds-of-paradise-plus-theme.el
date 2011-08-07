@@ -6,6 +6,7 @@
 ;; Copyright (C) 2011 Paul M. Rodriguez <paulmrodriguez@gmail.com>
 
 ;; Tweaked "plus" version by Jim Myhrberg <contact@jimeh.me>
+;; https://github.com/jimeh/birds-of-paradise-plus-theme.el
 
 ;; This file is not part of GNU Emacs.
 
