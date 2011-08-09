@@ -43,18 +43,18 @@
   "Port of the brown-based warm light-on-dark theme by Joe Bergantine.")
 
 (let ((brown-1 "#372725") (brown-2 "#6B4E32") (brown-3 "#2A1D1D")
-      (brown-4 "#523D2B") (brown-5 "#7D504A")
-      (brown-6 "#523E2B")
+                          (brown-4 "#523D2B") (brown-5 "#7D504A")
+                          (brown-6 "#523E2B")
       (white-1 "#E6E1C4") (white-2 "#E6E1DC")
       (black-1 "#1F1611") (black-2 "#16120E") (black-3 "#000000")
       (gray-1 "#42302D")      ;gray-25
       (yellow-1 "#D9D762") (yellow-2 "#EFAC32") (yellow-3 "#EFCB43")
-      (yellow-4 "#EFC232") (yellow-5 "#FFC05C")
+                           (yellow-4 "#EFC232") (yellow-5 "#FFC05C")
       (orange-1 "#EF5D32") (orange-2 "#CC762E") (orange-3 "#C74725")
       (red-1 "#990000") (red-2 "#660000") (red-3 "#CC4232")
-      (red-4 "#BE3250") (red-5 "#D23850")
+                        (red-4 "#BE3250") (red-5 "#D23850")
       (blue-1 "#7DAF9C") (blue-2 "#6C99BB") (blue-3 "#5798AE")
-      (blue-4 "#93C1BC") (blue-5 "#2F33AB")
+                         (blue-4 "#93C1BC") (blue-5 "#2F33AB")
       (purple-1 "#BB99BB") (purple-2 "#8856D2") (purple-3 "#BE73FD")
       (green-1 "#144212"))
   (custom-theme-set-faces
