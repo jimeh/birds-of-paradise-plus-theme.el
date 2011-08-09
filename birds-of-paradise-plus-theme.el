@@ -53,6 +53,7 @@
       (orange-1 "#EF5D32") (orange-2 "#CC762E") (orange-3 "#C74725")
       (red-1 "#990000") (red-2 "#660000") (red-3 "#CC4232")
                         (red-4 "#BE3250") (red-5 "#D23850")
+                        (red-6 "firebrick4")
       (blue-1 "#7DAF9C") (blue-2 "#6C99BB") (blue-3 "#5798AE")
                          (blue-4 "#93C1BC") (blue-5 "#2F33AB")
       (purple-1 "#BB99BB") (purple-2 "#8856D2") (purple-3 "#BE73FD")
@@ -83,8 +84,8 @@
    `(minibuffer-prompt ((t (:foreground ,blue-2)))) ;todo
    `(ido-only-match ((t (:foreground ,orange-1))))
    `(ido-subdir ((t (:foreground ,yellow-2))))
-   `(flyspell-incorrect ((t (:inherit font-lock-warning-face))))
-   `(flyspell-duplicate ((t (:inherit font-lock-warning-face))))
+   `(flyspell-incorrect ((t (:underline ,red-6))))
+   `(flyspell-duplicate ((t (:underline ,red-6))))
    `(whitespace-newline ((t (:foreground ,brown-6))))
    `(whitespace-hspace ((t (:foreground ,brown-6))))
    `(whitespace-space ((t (:foreground ,brown-6))))
