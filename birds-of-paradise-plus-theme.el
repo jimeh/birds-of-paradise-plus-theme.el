@@ -91,6 +91,8 @@
    `(whitespace-space ((t (:foreground ,brown-6))))
    `(whitespace-tab ((t (:foreground ,brown-6))))
    `(whitespace-line ((t (:background ,gray-1))))
+   `(whitespace-indentation ((t (:foreground ,brown-6))))
+   `(whitespace-space-after-tab ((t (:foreground ,brown-6))))
    `(elscreen-tab-background-face ((t (:background ,brown-3))))
    `(elscreen-tab-control-face ((t (:background ,brown-2 :foreground ,white-1 :underline nil))))
    `(elscreen-tab-current-screen-face ((t (:background ,brown-2 :foreground ,white-1))))
