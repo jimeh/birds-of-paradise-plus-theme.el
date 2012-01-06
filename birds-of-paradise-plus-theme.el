@@ -149,6 +149,7 @@
    `(nxml-attribute-value ((t (:foreground ,yellow-1)))))
   (custom-theme-set-variables
    'birds-of-paradise-plus
+   `(fci-rule-color ,brown-6)
    `(ansi-color-names-vector
      ;; black, red, green, yellow, blue, magenta, cyan, white
      [,black-1 ,red-2 ,green-1 ,yellow-4 ,blue-3 ,purple-3 ,blue-4 ,white-2])
