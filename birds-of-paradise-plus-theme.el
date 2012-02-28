@@ -84,6 +84,8 @@
    `(minibuffer-prompt ((t (:foreground ,blue-2)))) ;todo
    `(ido-only-match ((t (:foreground ,orange-1))))
    `(ido-subdir ((t (:foreground ,yellow-2))))
+   `(highlight-indentation-face ((t (:background ,brown-3))))
+   `(highlight-indentation-current-column-face ((t (:background ,brown-6))))
    `(flyspell-incorrect ((t (:underline ,red-6))))
    `(flyspell-duplicate ((t (:underline ,red-6))))
    `(whitespace-newline ((t (:foreground ,brown-6))))
