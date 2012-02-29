@@ -44,7 +44,6 @@
 
 (let ((brown-1 "#452E2E") (brown-2 "#865C38") (brown-3 "#4B3330")
                           (brown-4 "#523D2B") (brown-5 "#7D504A")
-                          (brown-6 "#523E2B")
       (white-1 "#E6E1C4") (white-2 "#E6E1DC")
       (black-1 "#1F1611") (black-2 "#16120E") (black-3 "#000000")
       (gray-1 "#42302D")      ;gray-25
@@ -85,23 +84,23 @@
    `(ido-only-match ((t (:foreground ,orange-1))))
    `(ido-subdir ((t (:foreground ,yellow-2))))
    `(highlight-indentation-face ((t (:background ,brown-3))))
-   `(highlight-indentation-current-column-face ((t (:background ,brown-6))))
+   `(highlight-indentation-current-column-face ((t (:background ,brown-4))))
    `(flyspell-incorrect ((t (:underline ,red-6))))
    `(flyspell-duplicate ((t (:underline ,red-6))))
-   `(whitespace-newline ((t (:foreground ,brown-6))))
-   `(whitespace-hspace ((t (:foreground ,brown-6))))
-   `(whitespace-space ((t (:foreground ,brown-6))))
-   `(whitespace-tab ((t (:foreground ,brown-6))))
+   `(whitespace-newline ((t (:foreground ,brown-4))))
+   `(whitespace-hspace ((t (:foreground ,brown-4))))
+   `(whitespace-space ((t (:foreground ,brown-4))))
+   `(whitespace-tab ((t (:foreground ,brown-4))))
    `(whitespace-line ((t (:background ,gray-1))))
-   `(whitespace-indentation ((t (:foreground ,brown-6))))
-   `(whitespace-space-after-tab ((t (:foreground ,brown-6))))
+   `(whitespace-indentation ((t (:foreground ,brown-4))))
+   `(whitespace-space-after-tab ((t (:foreground ,brown-4))))
    `(elscreen-tab-background-face ((t (:background ,brown-3))))
    `(elscreen-tab-control-face ((t (:background ,brown-2 :foreground ,white-1 :underline nil))))
    `(elscreen-tab-current-screen-face ((t (:background ,brown-2 :foreground ,white-1))))
    `(elscreen-tab-other-screen-face ((t (:background ,brown-3 :foreground ,white-1 :underline nil))))
    `(show-paren-match ((t (:background ,brown-5))))
    `(show-paren-mismatch ((t (:inherit font-lock-warning-face))))
-   `(column-marker-1 ((t (:background ,brown-6))))
+   `(column-marker-1 ((t (:background ,brown-4))))
    `(button ((t (:foreground ,yellow-1 :background ,blue-1 :weight bold :underline t))))
    `(link ((t (:foreground ,yellow-1))))
    `(mode-line ((t (:background ,brown-2 :foreground ,white-1))))
@@ -151,7 +150,7 @@
    `(nxml-attribute-value ((t (:foreground ,yellow-1)))))
   (custom-theme-set-variables
    'birds-of-paradise-plus
-   `(fci-rule-color ,brown-6)
+   `(fci-rule-color ,brown-4)
    `(ansi-color-names-vector
      ;; black, red, green, yellow, blue, magenta, cyan, white
      [,black-1 ,red-2 ,green-1 ,yellow-4 ,blue-3 ,purple-3 ,blue-4 ,white-2])
