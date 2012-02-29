@@ -53,11 +53,11 @@
       (orange-1 "#EF5D32") (orange-2 "#CC762E") (orange-3 "#C74725")
       (red-1 "#990000") (red-2 "#660000") (red-3 "#CC4232")
                         (red-4 "#BE3250") (red-5 "#D23850")
-                        (red-6 "firebrick4")
+                        (red-6 "firebrick4") (red-7 "#FF7575")
       (blue-1 "#7DAF9C") (blue-2 "#6C99BB") (blue-3 "#5798AE")
                          (blue-4 "#93C1BC") (blue-5 "#2F33AB")
       (purple-1 "#BB99BB") (purple-2 "#8856D2") (purple-3 "#BE73FD")
-      (green-1 "#144212"))
+      (green-1 "#144212") (green-2 "#8CFF8C"))
   (custom-theme-set-faces
    'birds-of-paradise-plus
    ;; The choice of basic font-lock faces is taken from the designer's
@@ -88,6 +88,9 @@
    `(highlight-indentation-current-column-face ((t (:background ,brown-4))))
    `(flyspell-incorrect ((t (:underline ,red-6))))
    `(flyspell-duplicate ((t (:underline ,red-6))))
+   `(magit-diff-add ((t (:foreground ,green-2))))
+   `(magit-diff-del ((t (:foreground ,red-7))))
+   `(magit-item-highlight ((t (:background ,brown-6))))
    `(whitespace-newline ((t (:foreground ,brown-4))))
    `(whitespace-hspace ((t (:foreground ,brown-4))))
    `(whitespace-space ((t (:foreground ,brown-4))))
