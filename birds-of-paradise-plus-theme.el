@@ -44,7 +44,7 @@
 
 (let ((brown-1 "#452E2E") (brown-2 "#865C38") (brown-3 "#4B3330")
                           (brown-4 "#523D2B") (brown-5 "#7D504A")
-                          (brown-6 "#392626")
+                          (brown-6 "#392626") (brown-7 "#3E2929")
       (white-1 "#E6E1C4") (white-2 "#E6E1DC")
       (black-1 "#1F1611") (black-2 "#16120E") (black-3 "#000000")
       (gray-1 "#42302D")      ;gray-25
@@ -66,7 +66,7 @@
    `(default ((t (:background ,brown-1 :foreground ,white-1))))
    `(cursor ((t (:foreground ,brown-2 :background ,white-1))))
    `(highlight ((t (:background ,black-1 :foreground ,white-1))))
-   `(hl-line ((t (:background ,brown-6))))
+   `(hl-line ((t (:background ,brown-7))))
    `(region ((t (:background ,brown-4))))
    `(font-lock-builtin-face ((t (:foreground ,blue-2))))
    `(font-lock-comment-face ((t (:italic t :foreground ,brown-2))))
