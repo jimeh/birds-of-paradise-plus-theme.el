@@ -63,6 +63,8 @@
    ;; The choice of basic font-lock faces is taken from the designer's
    ;; TextMate port of the theme. The rest are either adapted from the
    ;; original Panic Coda styles, or are new.
+
+   ;; Basics
    `(default ((t (:background ,brown-1 :foreground ,white-1))))
    `(cursor ((t (:foreground ,brown-2 :background ,white-1))))
    `(highlight ((t (:background ,black-1 :foreground ,white-1))))
@@ -81,16 +83,23 @@
    `(font-lock-variable-name-face ((t (:foreground ,blue-1))))
    `(font-lock-warning-face ((t (:background ,red-1 :foreground "white"))))
    `(escape-glyph ((t (:foreground ,purple-3))))
+
+   ;; UI related
    `(minibuffer-prompt ((t (:foreground ,blue-2)))) ;todo
+   `(link ((t (:foreground ,yellow-1))))
+   `(button ((t (:foreground ,yellow-1 :background ,blue-1 :weight bold :underline t))))
+   `(mode-line ((t (:background ,brown-2 :foreground ,white-1))))
+   `(mode-line-inactive ((t (:background ,grey-1 :foreground ,white-1))))
+
+   ;; show-paren
+   `(show-paren-match ((t (:background ,brown-5))))
+   `(show-paren-mismatch ((t (:inherit font-lock-warning-face))))
+
+   ;; ido
    `(ido-only-match ((t (:foreground ,orange-1))))
    `(ido-subdir ((t (:foreground ,yellow-2))))
-   `(highlight-indentation-face ((t (:background ,brown-3))))
-   `(highlight-indentation-current-column-face ((t (:background ,brown-4))))
-   `(flyspell-incorrect ((t (:underline ,red-6))))
-   `(flyspell-duplicate ((t (:underline ,red-6))))
-   `(magit-diff-add ((t (:foreground ,green-2))))
-   `(magit-diff-del ((t (:foreground ,red-7))))
-   `(magit-item-highlight ((t (:background ,brown-6))))
+
+   ;; whitespace-mode
    `(whitespace-newline ((t (:foreground ,brown-4))))
    `(whitespace-hspace ((t (:foreground ,brown-4))))
    `(whitespace-space ((t (:foreground ,brown-4))))
@@ -98,17 +107,33 @@
    `(whitespace-line ((t (:background ,gray-1))))
    `(whitespace-indentation ((t (:foreground ,brown-4))))
    `(whitespace-space-after-tab ((t (:foreground ,brown-4))))
+
+   ;; flyspell-mode
+   `(flyspell-incorrect ((t (:underline ,red-6))))
+   `(flyspell-duplicate ((t (:underline ,red-6))))
+
+   ;; magit
+   `(magit-diff-add ((t (:foreground ,green-2))))
+   `(magit-diff-del ((t (:foreground ,red-7))))
+   `(magit-item-highlight ((t (:background ,brown-6))))
+
+   ;; highlight-indentation-mode
+   `(highlight-indentation-face ((t (:background ,brown-3))))
+   `(highlight-indentation-current-column-face ((t (:background ,brown-4))))
+
+   ;; ECB
+   `(ecb-default-highlight-face ((t (:background ,red-1))))
+
+   ;; ElScreen
    `(elscreen-tab-background-face ((t (:background ,brown-3))))
    `(elscreen-tab-control-face ((t (:background ,brown-2 :foreground ,white-1 :underline nil))))
    `(elscreen-tab-current-screen-face ((t (:background ,brown-2 :foreground ,white-1))))
    `(elscreen-tab-other-screen-face ((t (:background ,brown-3 :foreground ,white-1 :underline nil))))
-   `(show-paren-match ((t (:background ,brown-5))))
-   `(show-paren-mismatch ((t (:inherit font-lock-warning-face))))
+
+   ;; column-marker-mode
    `(column-marker-1 ((t (:background ,brown-4))))
-   `(button ((t (:foreground ,yellow-1 :background ,blue-1 :weight bold :underline t))))
-   `(link ((t (:foreground ,yellow-1))))
-   `(mode-line ((t (:background ,brown-2 :foreground ,white-1))))
-   `(mode-line-inactive ((t (:background "gray25" :foreground ,white-1))))
+
+   ;; Misc.
    `(gnus-group-news-1 ((t (:foreground ,yellow-1 :weight bold))))
    `(gnus-group-news-1-empty ((t (:foreground ,yellow-1))))
    `(gnus-group-news-2 ((t (:foreground ,orange-1 :weight bold))))
@@ -154,7 +179,11 @@
    `(nxml-attribute-value ((t (:foreground ,yellow-1)))))
   (custom-theme-set-variables
    'birds-of-paradise-plus
+
+   ;; Fill Column Indicator mode
    `(fci-rule-color ,brown-4)
+
+   ;; Misc.
    `(ansi-color-names-vector
      ;; black, red, green, yellow, blue, magenta, cyan, white
      [,black-1 ,red-2 ,green-1 ,yellow-4 ,blue-3 ,purple-3 ,blue-4 ,white-2])
