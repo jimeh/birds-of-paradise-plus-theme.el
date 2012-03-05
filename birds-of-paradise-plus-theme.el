@@ -47,7 +47,7 @@
                           (brown-6 "#392626") (brown-7 "#3E2929")
       (white-1 "#E6E1C4") (white-2 "#E6E1DC")
       (black-1 "#1F1611") (black-2 "#16120E") (black-3 "#000000")
-      (gray-1 "#42302D")      ;gray-25
+      (gray-1 "#4e4e4e")
       (yellow-1 "#D9D762") (yellow-2 "#EFAC32") (yellow-3 "#EFCB43")
                            (yellow-4 "#EFC232") (yellow-5 "#FFC05C")
       (orange-1 "#EF5D32") (orange-2 "#CC762E") (orange-3 "#C74725")
