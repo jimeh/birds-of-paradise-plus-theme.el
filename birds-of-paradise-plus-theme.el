@@ -91,7 +91,7 @@
    `(link ((t (:foreground ,yellow-1))))
    `(button ((t (:foreground ,yellow-1 :background ,blue-1 :weight bold :underline t))))
    `(mode-line ((t (:background ,brown-2 :foreground ,white-1))))
-   `(mode-line-inactive ((t (:background ,grey-1 :foreground ,white-1))))
+   `(mode-line-inactive ((t (:background ,gray-1 :foreground ,white-1))))
 
    ;; show-paren
    `(show-paren-match ((t (:background ,brown-5))))
