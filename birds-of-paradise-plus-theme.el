@@ -182,6 +182,7 @@
 
    ;; Fill Column Indicator mode
    `(fci-rule-color ,brown-4)
+   `(fci-rule-character-color ,brown-4)
 
    ;; Misc.
    `(ansi-color-names-vector
