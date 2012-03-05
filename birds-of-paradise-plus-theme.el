@@ -70,6 +70,10 @@
    `(highlight ((t (:background ,black-1 :foreground ,white-1))))
    `(hl-line ((t (:background ,brown-7))))
    `(region ((t (:background ,brown-4))))
+   `(escape-glyph ((t (:foreground ,purple-3))))
+   `(minibuffer-prompt ((t (:foreground ,blue-2)))) ;todo
+
+   ;; Font-lock stuff
    `(font-lock-builtin-face ((t (:foreground ,blue-2))))
    `(font-lock-comment-face ((t (:italic t :foreground ,brown-2))))
    `(font-lock-constant-face ((t (:foreground ,blue-2))))
@@ -82,10 +86,8 @@
    `(font-lock-type-face ((t (:bold t :foreground ,yellow-2))))
    `(font-lock-variable-name-face ((t (:foreground ,blue-1))))
    `(font-lock-warning-face ((t (:background ,red-1 :foreground "white"))))
-   `(escape-glyph ((t (:foreground ,purple-3))))
 
    ;; UI related
-   `(minibuffer-prompt ((t (:foreground ,blue-2)))) ;todo
    `(link ((t (:foreground ,yellow-1))))
    `(button ((t (:foreground ,yellow-1 :background ,blue-1 :weight bold :underline t))))
    `(mode-line ((t (:background ,brown-2 :foreground ,white-1))))
