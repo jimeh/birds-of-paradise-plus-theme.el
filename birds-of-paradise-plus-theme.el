@@ -102,13 +102,15 @@
    `(ido-subdir ((t (:foreground ,yellow-2))))
 
    ;; whitespace-mode
-   `(whitespace-newline ((t (:foreground ,brown-4))))
+   `(whitespace-empty ((t (:background ,yellow-2))))
    `(whitespace-hspace ((t (:foreground ,brown-4))))
-   `(whitespace-space ((t (:foreground ,brown-4))))
-   `(whitespace-tab ((t (:foreground ,brown-4))))
-   `(whitespace-line ((t (:background ,gray-1))))
    `(whitespace-indentation ((t (:foreground ,brown-4))))
+   `(whitespace-line ((t (:background ,gray-1))))
+   `(whitespace-newline ((t (:foreground ,brown-4))))
+   `(whitespace-space ((t (:foreground ,brown-4))))
    `(whitespace-space-after-tab ((t (:foreground ,brown-4))))
+   `(whitespace-tab ((t (:foreground ,brown-4))))
+   `(whitespace-trailing ((t (:background ,red-3))))
 
    ;; flyspell-mode
    `(flyspell-incorrect ((t (:underline ,red-6))))
