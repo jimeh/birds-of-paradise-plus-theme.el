@@ -106,6 +106,10 @@
    `(ido-only-match ((t (:foreground ,orange-1))))
    `(ido-subdir ((t (:foreground ,yellow-2))))
 
+   ;; highlight-indentation-mode
+   `(highlight-indentation-face ((t (:background ,brown-3))))
+   `(highlight-indentation-current-column-face ((t (:background ,brown-4))))
+
    ;; whitespace-mode
    `(whitespace-empty ((t (:background ,yellow-2))))
    `(whitespace-hspace ((t (:foreground ,brown-4))))
@@ -125,10 +129,6 @@
    `(magit-diff-add ((t (:foreground ,green-2))))
    `(magit-diff-del ((t (:foreground ,red-7))))
    `(magit-item-highlight ((t (:background ,brown-6))))
-
-   ;; highlight-indentation-mode
-   `(highlight-indentation-face ((t (:background ,brown-3))))
-   `(highlight-indentation-current-column-face ((t (:background ,brown-4))))
 
    ;; ECB
    `(ecb-default-highlight-face ((t (:background ,red-1))))
