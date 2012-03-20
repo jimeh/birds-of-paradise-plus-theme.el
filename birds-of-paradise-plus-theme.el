@@ -45,7 +45,7 @@
 (let ((brown-1 "#452E2E") (brown-2 "#865C38") (brown-3 "#4B3330")
                           (brown-4 "#523D2B") (brown-5 "#7D504A")
                           (brown-6 "#392626") (brown-7 "#3E2929")
-      (white-1 "#E6E1C4") (white-2 "#E6E1DC") (white-3 "#6b5353")
+      (white-1 "#E6E1C4") (white-2 "#E6E1DC") (white-3 "#654D4D")
       (black-1 "#1F1611") (black-2 "#16120E") (black-3 "#000000")
       (gray-1 "#4e4e4e")
       (yellow-1 "#D9D762") (yellow-2 "#EFAC32") (yellow-3 "#EFCB43")
