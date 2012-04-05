@@ -38,7 +38,8 @@
 
 ;;; Code:
 
-;; todo: minibuffer-prompt, isearch, lazy-highlight, secondary-selection, Semantic?
+;; todo: minibuffer-prompt, isearch, lazy-highlight, secondary-selection,
+;; Semantic?
 (deftheme birds-of-paradise-plus
   "Port of the brown-based warm light-on-dark theme by Joe Bergantine.")
 
@@ -60,9 +61,6 @@
       (green-1 "#144212") (green-2 "#8CFF8C"))
   (custom-theme-set-faces
    'birds-of-paradise-plus
-   ;; The choice of basic font-lock faces is taken from the designer's
-   ;; TextMate port of the theme. The rest are either adapted from the
-   ;; original Panic Coda styles, or are new.
 
    ;; Basics
    `(default ((t (:background ,brown-1 :foreground ,white-1))))
@@ -202,10 +200,5 @@
      [unspecified ,black-1 ,red-2 ,green-1 ,yellow-4 ,blue-3 ,purple-3 ,blue-4 ,white-2])))
 
 (provide-theme 'birds-of-paradise-plus)
-
-;; Local Variables:
-;; no-byte-compile: t
-;; eval:(rainbow-mode 1)
-;; End:
 
 ;;; birds-of-paradise-plus-theme.el ends here
