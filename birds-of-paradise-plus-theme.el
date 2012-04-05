@@ -5,7 +5,7 @@
 ;; Original birds-of-paradise-theme.el:
 ;; Copyright (C) 2011 Paul M. Rodriguez <paulmrodriguez@gmail.com>
 
-;; Tweaked "plus" version by Jim Myhrberg <contact@jimeh.me>
+;; Tweaked "plus" version by Jim Myhrberg (@jimeh)
 ;; https://github.com/jimeh/birds-of-paradise-plus-theme.el
 
 ;; This file is not part of GNU Emacs.
@@ -28,7 +28,7 @@
 ;; Created "plus" variant to signify my own personally customized version. I
 ;; have tweaked certain elements, but mainly added color definitions for
 ;; various packages I use on a daily basis, like fci-mode, magit, whitespace,
-;; highlight-indentation and more. --Jim Myhrberg <contact@jimeh.me>
+;; highlight-indentation and more. --Jim Myhrberg (@jimeh)
 
 ;;; Commentary
 
