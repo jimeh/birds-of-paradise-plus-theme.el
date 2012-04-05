@@ -25,10 +25,10 @@
 
 ;;; Contributions
 
-;; Added "plus" at the end of theme name to signify my personal customized
-;; version with show-paren and region (selection) colors changed,
-;; and added various whitespace and other color definitions to suit
-;; my liking. -- Jim Myhrberg <contact@jimeh.me>
+;; Created "plus" variant to signify my own personally customized version. I
+;; have tweaked certain elements, but mainly added color definitions for
+;; various packages I use on a daily basis, like fci-mode, magit, whitespace,
+;; highlight-indentation and more. --Jim Myhrberg <contact@jimeh.me>
 
 ;;; Commentary
 
