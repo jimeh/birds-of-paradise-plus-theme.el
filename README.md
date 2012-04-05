@@ -3,6 +3,10 @@
 A Emacs port of Joseph Bergantine's light-on-dark [theme][bop] by the same
 name.
 
+<div style="text-align: center">
+  <img src="https://github.com/jimeh/birds-of-paradise-plus-theme.el/raw/master/preview/gui.png" alt="preview" />
+</div>
+
 ## Credits
 
 - Original [Birds of Paradise][bop] theme created by Joe Bergantine for
