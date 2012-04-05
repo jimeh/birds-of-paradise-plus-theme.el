@@ -1,12 +1,14 @@
 # Birds Of Paradise (Plus)
 
-A Emacs port of Joseph Bergantine's light-on-dark theme by the same name.
+A Emacs port of Joseph Bergantine's light-on-dark [theme][bop] by the same
+name.
 
 ## Credits
 
-- Original [theme][] created by Joseph Bergantin for [Coda][]
+- Original [Birds of Paradise][bop] theme created by Joe Bergantine for
+  [Coda][].
 - Original `birds-of-paradise-theme.el` port created by Paul M. Rodriguez.
 
 
-[theme]: http://joebergantine.com/werkstatt/birds-of-paradise
+[bop]: http://joebergantine.com/werkstatt/birds-of-paradise
 [coda]: http://panic.com/coda/
