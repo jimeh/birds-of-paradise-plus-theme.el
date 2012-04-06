@@ -1,6 +1,6 @@
-# Birds Of Paradise (Plus)
+# Birds of Paradise (Plus)
 
-A Emacs port of Joseph Bergantine's light-on-dark [theme][bop] by the same
+A Emacs port of Joe Bergantine's light-on-dark [theme][bop] by the same
 name.
 
 <div style="text-align: center">
