@@ -1,45 +1,37 @@
+;;; birds-of-paradise-plus-theme.el --- A brown/orange light-on-dark theme for Emacs 24 (deftheme).
 ;;
-;;; birds-of-paradise-plus-theme.el --- custom theme for faces
+;; Copyright (c) 2012 Jim Myhrberg.
 ;;
-
-;; Original birds-of-paradise-theme.el:
-;; Copyright (C) 2011 Paul M. Rodriguez <paulmrodriguez@gmail.com>
-
-;; Tweaked "plus" version by Jim Myhrberg (@jimeh)
-;; https://github.com/jimeh/birds-of-paradise-plus-theme.el
-
+;; Author: Jim Myhrberg <contact@jimeh.me>
+;; Version: 0.1.0
+;; Keywords: themes
+;; URL: https://github.com/jimeh/birds-of-paradise-plus-theme.el
+;;
 ;; This file is not part of GNU Emacs.
-
+;;
 ;; GNU Emacs is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
 ;; the Free Software Foundation, either version 3 of the License, or
 ;; (at your option) any later version.
-
+;;
 ;; GNU Emacs is distributed in the hope that it will be useful,
 ;; but WITHOUT ANY WARRANTY; without even the implied warranty of
 ;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 ;; GNU General Public License for more details.
-
+;;
 ;; You should have received a copy of the GNU General Public License
 ;; along with GNU Emacs.  If not, see <http://www.gnu.org/licenses/>.
-
-;;; Contributions
-
-;; Created "plus" variant to signify my own personally customized version. I
-;; have tweaked certain elements, but mainly added color definitions for
-;; various packages I use on a daily basis, like fci-mode, magit, whitespace,
-;; highlight-indentation and more. --Jim Myhrberg (@jimeh)
-
-;;; Commentary
-
-;; The colors in this theme come from Joseph Bergantine's "Birds of
-;; Paradise" theme, released under the BSD license:
-;; http://joebergantine.com/werkstatt/birds-of-paradise.
-
+;;
+;;; Credit:
+;;
+;; The original Birds of Paradise theme was created by Joe Bergantine for
+;; Coda: http://joebergantine.com/werkstatt/birds-of-paradise
+;;
+;; The original Emacs port (birds-of-paradise-theme.el) of Birds of Paradise
+;; was created by Paul M. Rodriguez <paulmrodriguez@gmail.com>.
+;;
 ;;; Code:
 
-;; todo: minibuffer-prompt, isearch, lazy-highlight, secondary-selection,
-;; Semantic?
 (deftheme birds-of-paradise-plus
   "Port of the brown-based warm light-on-dark theme by Joe Bergantine.")
 
