@@ -192,6 +192,12 @@
      ;; [unspecified "black" "red3" "green3" "yellow3" "blue2" "magenta3" "cyan3" "white"]
      [unspecified ,black-1 ,red-2 ,green-1 ,yellow-4 ,blue-3 ,purple-3 ,blue-4 ,white-2])))
 
+
+;;;###autoload
+(when load-file-name
+  (add-to-list 'custom-theme-load-path
+               (file-name-as-directory (file-name-directory load-file-name))))
+
 (provide-theme 'birds-of-paradise-plus)
 
 ;;; birds-of-paradise-plus-theme.el ends here
