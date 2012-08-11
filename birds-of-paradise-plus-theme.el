@@ -65,9 +65,10 @@
 
    ;; Font-lock stuff
    `(font-lock-builtin-face ((t (:foreground ,blue-2))))
-   `(font-lock-comment-face ((t (:italic t :foreground ,brown-2))))
    `(font-lock-constant-face ((t (:foreground ,blue-2))))
+   `(font-lock-comment-face ((t (:italic t :foreground ,brown-2))))
    `(font-lock-doc-face ((t (:foreground ,brown-2))))
+   `(font-lock-doc-string-face ((t (:foreground ,brown-2))))
    `(font-lock-function-name-face ((t (:foreground ,yellow-2))))
    `(font-lock-keyword-face ((t (:foreground ,orange-1))))
    `(font-lock-negation-char-face ((t (:foreground ,blue-1))))
